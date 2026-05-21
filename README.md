@@ -65,7 +65,7 @@ pip install thirdparty/lietorch --no-build-isolation
 pip install thirdparty/pytorch_scatter --no-build-isolation
 
 # install droid-backends
-pip install -e .
+pip install -e . --no-build-isolation
 ```
 
 <!-- ### Deprecated Conda Installation
