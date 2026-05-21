@@ -49,8 +49,10 @@ python -c "import torch; print(torch.version.cuda)"
 ```
 
 ```Bash
-python3 -m venv .venv
-source .venv/bin/activate
+#python3 -m venv .venv
+#source .venv/bin/activate
+conda create -n slam -y python=3.10
+conda activate slam
 
 # install requirements (tested up to torch 2.7)
 pip install -r requirements.txt
