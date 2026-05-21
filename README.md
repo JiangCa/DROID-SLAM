@@ -59,8 +59,8 @@ pip install -r requirements.txt
 pip install moderngl moderngl-window
 
 # install third-party modules (this will take a while)
-pip install thirdparty/lietorch
-pip install thirdparty/pytorch_scatter
+pip install thirdparty/lietorch --no-build-isolation
+pip install thirdparty/pytorch_scatter --no-build-isolation
 
 # install droid-backends
 pip install -e .
